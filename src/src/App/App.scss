@@ -1,0 +1,52 @@
+.sidebar .nav-item .nav-link.active {
+    font-weight: 700;
+}
+
+.btn-link {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-item.nav-toggle .nav-link::after {
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.nav-item.nav-toggle .nav-link.active::after {
+    content: '\f107';
+}
+
+.toggled .nav-item.nav-toggle .nav-link::after {
+    display: none;
+}
+
+
+.invalid-feedback {
+    display: block;
+    min-height: 15px;
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.table-scroll {
+    margin-bottom: 0;
+    border-bottom: 2px solid #e3e6f0;
+}
+
+// .table-scroll tbody {
+//     height: calc(100vh - 310px);
+//     overflow: auto;
+// }
+
+footer.sticky-footer {
+    padding: 1rem 0;
+}
